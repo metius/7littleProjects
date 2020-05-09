@@ -24,7 +24,7 @@
 		<div class="project project1">
 			<div class="box-center">
 				<h1 class="heading2 heading2--project1">Project 1</h1>
-				<div class="color-box">
+				<div class="center-box center-box--p1">
 					<p class="color-text">
 						Color selected: 
 						<span class="color-text--name">none</span>
@@ -60,13 +60,13 @@
 		<div class="project project2">
 			<div class="box-center">
 				<h1 class="heading2 heading2--project2">Project 2</h1>
-				<div class="color-box color-box--project2">
+				<div class="center-box center-box--project2">
 					<div class="number">
 						<span class="minus">-</span>
 							<input type="text" value="1" id="p2_input" disabled/>
 						<span class="plus">+</span>
 						<p class="num--text">Min value: 0 - Max value: 20</p>
-						<p class="num--text">Click on the buttons or press <span class="num--text-keys">+</span> or <span class="num--text-keys">-</span></p>						
+						<p class="num--text">Click on the buttons or press <span class="num--text-keys">➕</span> or <span class="num--text-keys">➖</span></p>						
 					</div>
 				</div>
 			</div>
@@ -77,35 +77,78 @@
 		<div class="project project3">
 			<div class="box-center">
 				<h1 class="heading2">Project 3</h1>
+				<div class="center-box center-box--project3">
+
+				</div>
 			</div>
 		</div>
 		<a name="project4"></a>
 		<div class="project project4">
 			<div class="box-center">
-				<h1 class="heading2">Project 4</h1>
+				<h1 class="heading2 h2-p4">Project 4</h1>
+				<div class="center-box center-box--project4">
+					<form id="billForm" name="billForm" class="form">
+						<fieldset>
+							<legend class="bill-legend">Tip Calculator</legend>
+							<label for="billAmount">Bill Amount</label>
+							<input type="number" name="billAmount" id="billAmount" class="p4_input" >
+							<label for="tipPercentage">Tip Percentage</label>
+							<div class="select">
+								<select name="tipPercentage" id="tipPercentage" class="tipPercentage--select">
+									<option value="0"></option>
+									<option value="5">5%</option>
+									<option value="10">10%</option>
+									<option value="15">15%</option>
+									<option value="20">20%</option>
+									<option value="25">25%</option>
+								</select>
+							</div>
+							<label for="tipAmount">Tip Amount</label>
+							<input type="text" name="tipAmount" id="tipAmount" class="p4_input" disabled>
+							<label for="totalAmount">Total Amount</label>
+							<input type="text" name="totalAmount" id="totalAmount" class="p4_input" disabled>
+						</fieldset>
+				</form>
+				</div>
 			</div>
 		</div>
 		<a name="project5"></a>
 		<div class="project project5">
 			<div class="box-center">
 				<h1 class="heading2">Project 5</h1>
+				<div class="center-box center-box--project5">
+
+				</div>
 			</div>
 		</div>
 		<a name="project6"></a>
 		<div class="project project6">
 			<div class="box-center">
 				<h1 class="heading2">Project 6</h1>
+				<div class="center-box center-box--project6">
+
+				</div>
 			</div>
 		</div>
 		<a name="project7"></a>
 		<div class="project project7">
 			<div class="box-center">
 				<h1 class="heading2">Project 7</h1>
+				<div class="center-box center-box--project7">
+
+				</div>
 			</div>
 		</div>
 	</div>
 	
-	<!-- Javascrip script -->
+	<!-- Javascrip scripts -->
 	<script src="script.js"></script>
+	<script src="project1.js"></script>
+	<script src="project2.js"></script>
+	<script src="project3.js"></script>
+	<script src="project4.js"></script>
+	<script src="project5.js"></script>
+	<script src="project6.js"></script>
+	<script src="project7.js"></script>
 </body>
 </html>
